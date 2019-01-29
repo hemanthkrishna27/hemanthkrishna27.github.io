@@ -1,33 +1,38 @@
 body
 {
-  background-image: url("profile\images\c.jpg");
-
+background-image: url("file:///C:/Users/761119/Documents/profile/images/image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+ 
 }
 .PROFILE{
-    width: 320px;
-    height: 420px;
-    background: rgba(0, 0, 0, 0.5);
+  
+    width: 700px;
+    height: 130px;
+    background: rgba(0.5, 0.5, 0.5, 0.5);
     color: #fff;
-    top: 50%;
-    left: 50%;
+	top:10%;
+	right:10%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 0px 30px;
 }
 .avatar{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    top: -50px;
+    top: 100px;
     left: calc(50% - 50px);
 }
 h1{
-    margin: 0;
-    padding: 0 0 20px;
+ margin:auto;
+    padding: -10 10 100 10px;
     text-align: center;
-    font-size: 22px;
+    font-size: 72px;
+	 font-weight: bold;
 }
 .PROFILE p{
     margin: 0;
@@ -39,7 +44,7 @@ h1{
 
 .PROFILE a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 28px;
     color: #fff;
 }
 .PROFILE a:hover
