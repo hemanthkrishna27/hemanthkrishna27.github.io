@@ -8,10 +8,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		background-image:url("https://raw.githubusercontent.com/hemanthkrishna27/hemanthkrishna27.github.io/master/banner.jpg");
- background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;	
+		
 }
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
